@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "esModuleInterop":true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "resolveJsonModule":true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "emitDecoratorMetadata": true,
+   "experimentalDecorators": true,
+   "lib": [
+    "ES2020.Promise",
+    "dom"
+  ]
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
+}
